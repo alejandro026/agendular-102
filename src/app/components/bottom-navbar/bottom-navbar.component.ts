@@ -8,7 +8,9 @@ import { ClockService } from 'src/app/services/clock.service';
 })
 export class BottomNavbarComponent implements OnInit {
 
-  clockNow: Date = new Date() 
+  clockNow: Date = new Date();
+
+  appVersion: string = enviro
 
   constructor(private clockService: ClockService) {
 
